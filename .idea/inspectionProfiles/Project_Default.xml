@@ -1,0 +1,168 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="69" name="JavaScript" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HttpUrlsUsage" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredUrls">
+        <list>
+          <option value="http://localhost" />
+          <option value="http://127.0.0.1" />
+          <option value="http://0.0.0.0" />
+          <option value="http://www.w3.org/" />
+          <option value="http://json-schema.org/draft" />
+          <option value="http://java.sun.com/" />
+          <option value="http://xmlns.jcp.org/" />
+          <option value="http://javafx.com/javafx/" />
+          <option value="http://javafx.com/fxml" />
+          <option value="http://maven.apache.org/xsd/" />
+          <option value="http://maven.apache.org/POM/" />
+          <option value="http://www.springframework.org/schema/" />
+          <option value="http://www.springframework.org/tags" />
+          <option value="http://www.springframework.org/security/tags" />
+          <option value="http://www.thymeleaf.org" />
+          <option value="http://www.jboss.org/j2ee/schema/" />
+          <option value="http://www.jboss.com/xml/ns/" />
+          <option value="http://www.ibm.com/webservices/xsd" />
+          <option value="http://activemq.apache.org/schema/" />
+          <option value="http://schema.cloudfoundry.org/spring/" />
+          <option value="http://schemas.xmlsoap.org/" />
+          <option value="http://cxf.apache.org/schemas/" />
+          <option value="http://primefaces.org/ui" />
+          <option value="http://tiles.apache.org/" />
+          <option value="http://" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyAsyncCallInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PyMethodParametersInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="91">
+            <item index="0" class="java.lang.String" itemvalue="alive-progress" />
+            <item index="1" class="java.lang.String" itemvalue="fastapi" />
+            <item index="2" class="java.lang.String" itemvalue="pydantic" />
+            <item index="3" class="java.lang.String" itemvalue="sh" />
+            <item index="4" class="java.lang.String" itemvalue="starlette" />
+            <item index="5" class="java.lang.String" itemvalue="pillow" />
+            <item index="6" class="java.lang.String" itemvalue="aiohttp" />
+            <item index="7" class="java.lang.String" itemvalue="h11" />
+            <item index="8" class="java.lang.String" itemvalue="sse-starlette" />
+            <item index="9" class="java.lang.String" itemvalue="uvicorn" />
+            <item index="10" class="java.lang.String" itemvalue="click" />
+            <item index="11" class="java.lang.String" itemvalue="motor" />
+            <item index="12" class="java.lang.String" itemvalue="loguru" />
+            <item index="13" class="java.lang.String" itemvalue="websockets" />
+            <item index="14" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="15" class="java.lang.String" itemvalue="pymongo" />
+            <item index="16" class="java.lang.String" itemvalue="requests" />
+            <item index="17" class="java.lang.String" itemvalue="httpx" />
+            <item index="18" class="java.lang.String" itemvalue="pyyaml" />
+            <item index="19" class="java.lang.String" itemvalue="sentry-sdk" />
+            <item index="20" class="java.lang.String" itemvalue="tls-client" />
+            <item index="21" class="java.lang.String" itemvalue="lxml" />
+            <item index="22" class="java.lang.String" itemvalue="discord-webhook" />
+            <item index="23" class="java.lang.String" itemvalue="pytz" />
+            <item index="24" class="java.lang.String" itemvalue="proxyman" />
+            <item index="25" class="java.lang.String" itemvalue="PyYAML" />
+            <item index="26" class="java.lang.String" itemvalue="pgeocode" />
+            <item index="27" class="java.lang.String" itemvalue="discord.py" />
+            <item index="28" class="java.lang.String" itemvalue="boto3" />
+            <item index="29" class="java.lang.String" itemvalue="discord" />
+            <item index="30" class="java.lang.String" itemvalue="psutil" />
+            <item index="31" class="java.lang.String" itemvalue="playwright" />
+            <item index="32" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="33" class="java.lang.String" itemvalue="urllib3" />
+            <item index="34" class="java.lang.String" itemvalue="numpy" />
+            <item index="35" class="java.lang.String" itemvalue="pandas" />
+            <item index="36" class="java.lang.String" itemvalue="colorama" />
+            <item index="37" class="java.lang.String" itemvalue="discord-py-interactions" />
+            <item index="38" class="java.lang.String" itemvalue="bs4" />
+            <item index="39" class="java.lang.String" itemvalue="interactions" />
+            <item index="40" class="java.lang.String" itemvalue="pytest" />
+            <item index="41" class="java.lang.String" itemvalue="distro" />
+            <item index="42" class="java.lang.String" itemvalue="undetected_chromedriver" />
+            <item index="43" class="java.lang.String" itemvalue="selenium" />
+            <item index="44" class="java.lang.String" itemvalue="waitress" />
+            <item index="45" class="java.lang.String" itemvalue="webdriver-manager" />
+            <item index="46" class="java.lang.String" itemvalue="flask" />
+            <item index="47" class="java.lang.String" itemvalue="chrome-version" />
+            <item index="48" class="java.lang.String" itemvalue="discord_webhook" />
+            <item index="49" class="java.lang.String" itemvalue="dhooks" />
+            <item index="50" class="java.lang.String" itemvalue="ProxyMan" />
+            <item index="51" class="java.lang.String" itemvalue="klpt" />
+            <item index="52" class="java.lang.String" itemvalue="pyautogui" />
+            <item index="53" class="java.lang.String" itemvalue="noble-tls" />
+            <item index="54" class="java.lang.String" itemvalue="fasteners" />
+            <item index="55" class="java.lang.String" itemvalue="pygsheets" />
+            <item index="56" class="java.lang.String" itemvalue="undetected-chromedriver" />
+            <item index="57" class="java.lang.String" itemvalue="browser_cookie3" />
+            <item index="58" class="java.lang.String" itemvalue="botocore" />
+            <item index="59" class="java.lang.String" itemvalue="algoliasearch" />
+            <item index="60" class="java.lang.String" itemvalue="aioredis" />
+            <item index="61" class="java.lang.String" itemvalue="langchain_community" />
+            <item index="62" class="java.lang.String" itemvalue="aiocsv" />
+            <item index="63" class="java.lang.String" itemvalue="googleapiclient" />
+            <item index="64" class="java.lang.String" itemvalue="google" />
+            <item index="65" class="java.lang.String" itemvalue="langchain_openai" />
+            <item index="66" class="java.lang.String" itemvalue="langchain_core" />
+            <item index="67" class="java.lang.String" itemvalue="pyotp" />
+            <item index="68" class="java.lang.String" itemvalue="robin-stocks" />
+            <item index="69" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="70" class="java.lang.String" itemvalue="vanguard-api" />
+            <item index="71" class="java.lang.String" itemvalue="fennel-invest-api" />
+            <item index="72" class="java.lang.String" itemvalue="public-invest-api" />
+            <item index="73" class="java.lang.String" itemvalue="setuptools" />
+            <item index="74" class="java.lang.String" itemvalue="chaseinvest-api" />
+            <item index="75" class="java.lang.String" itemvalue="webull" />
+            <item index="76" class="java.lang.String" itemvalue="dspac_invest_api" />
+            <item index="77" class="java.lang.String" itemvalue="asyncio" />
+            <item index="78" class="java.lang.String" itemvalue="selenium-stealth" />
+            <item index="79" class="java.lang.String" itemvalue="schwab-api" />
+            <item index="80" class="java.lang.String" itemvalue="tastytrade" />
+            <item index="81" class="java.lang.String" itemvalue="bbae-invest-api" />
+            <item index="82" class="java.lang.String" itemvalue="firstrade" />
+            <item index="83" class="java.lang.String" itemvalue="playwright-stealth" />
+            <item index="84" class="java.lang.String" itemvalue="genai" />
+            <item index="85" class="java.lang.String" itemvalue="tenacity" />
+            <item index="86" class="java.lang.String" itemvalue="fastapi-cache2" />
+            <item index="87" class="java.lang.String" itemvalue="slowapi" />
+            <item index="88" class="java.lang.String" itemvalue="botright" />
+            <item index="89" class="java.lang.String" itemvalue="transformers" />
+            <item index="90" class="java.lang.String" itemvalue="cloudscraper" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E402" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyProtectedMemberInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyShadowingNamesInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="pandas.core.interchange.dataframe_protocol.DataFrame.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
