@@ -1,6 +1,6 @@
 # FIB Payments Rust SDK
 
-A native Rust SDK for integrating with the FIB Payments API. This SDK provides a type-safe, efficient, and idiomatic Rust interface for processing payments.
+Rust SDK for integrating with the FIB Payments API.
 
 ## Features
 
@@ -102,11 +102,9 @@ match client.refund_payment(&payment.payment_id).await {
 }
 ```
 
-## Key Technical Features
-
 ### Thread-Safe Token Management
 
-The SDK implements efficient token management using Tokio's `Mutex`:
+token management using Tokio's `Mutex`:
 
 ```rust
 token: Mutex<Option<String>>
@@ -117,9 +115,7 @@ token: Mutex<Option<String>>
 - Lazy token initialization
 - Automatic token refresh on expiration
 
-### Resilient HTTP Client
-
-Built-in resilience with:
+### HTTP Client
 
 - Automatic retries with exponential backoff
 - Configurable retry parameters:
@@ -130,9 +126,7 @@ Built-in resilience with:
 - Smart retry decisions based on error types
 - Automatic handling of transient failures
 
-### Type-Safe Error Handling
-
-Comprehensive error handling using Rust's type system:
+### Error Handling
 
 ```rust
 #[derive(Error, Debug)]
@@ -153,9 +147,7 @@ pub enum Error {
 - Zero-cost error propagation
 - Detailed error context for debugging
 
-### Configuration Management
-
-Type-safe configuration with environment variable support:
+### Configuration
 
 ```rust
 #[derive(Debug, Clone)]
